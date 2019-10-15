@@ -1,0 +1,37 @@
+intents:
+  - cumprimentar
+  - despedir
+  - afirmar
+  - negar
+  - bom_humor
+  - mal_humor
+  - desafiar_bot
+
+actions:
+- utter_cumprimentar
+- utter_anime_se
+- utter_isso_ajudou
+- utter_feliz
+- utter_despedir_se
+- utter_eu_sou_um_robo
+
+templates:
+  utter_cumprimentar:
+  - text: "Olá! Como você está?"
+
+  utter_anime_se:
+  - text: "Aqui está algo que vai lhe animar:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_isso_ajudou:
+  - text: "Isso lhe ajudou?"
+
+  utter_feliz:
+  - text: "Que legal! Muito bom."
+
+  utter_despedir_se:
+  - text: "Tchau! Até mais ver."
+  - text: "Tchau! Te vejo depois."
+
+  utter_eu_sou_um_robo:
+  - text: "Eu sou um robô, feito com o Rasa."
